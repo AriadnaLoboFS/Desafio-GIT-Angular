@@ -1,13 +1,278 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>DesafioGitAngular</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ariadna Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-  <app-root></app-root>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Cerrar</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">Sobre Mi</a>
+            </li>
+            <li>
+                <a href="#experience">Experiencia</a>
+            </li>
+            <li>
+                <a href="#education">Educacion</a>
+            </li>
+            <li>
+                <a href="#projects">Capacitacion</a>
+            </li>
+            <li>
+                <a href="#skills">Habilidades</a>
+            </li>
+            <li>
+                <a href="#contact">Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Ariadna Lobo Figueroa Suarez</h1>
+            <h2>Licenciada en Administración</h2>
+            <a href="images/Ariadna Lobo F.S. CV.pdf" class="btn-rounded-white">Dale un vistazo a mi CV</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">Sobre Mi</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Soy una persona amable y proactiva. Cuento con experiencia como auxiliar 
+                        administrativa en Rentas Yerba Buena, desempeñándome en materia impositiva.
+                        Tambien presto servicios en el área administrativa de un Pet Shop además de 
+                        contar con un emprendimiento de accesorios propio. Actualmente, me encuentro 
+                        en el proceso de aprender y crecer dentro del mundo laboral del software.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experiencia</h2>
+        <div id="experience-timeline">
+            <div data-date="Febrero 2021 – Actualidad">
+               <h3>Auxiliar Administrativo Contable</h3>
+               <h4>Departamento Recaudación - Dirección Rentas Yerba Buena</h4>
+               <div>
+                <ul>
+                    <li>Atención al público presencial y vía mails en resolución de consultas.</li>
+                    <li>Asesoramiento y resolución de consultas por parte de los sectores de Recaudación (CISI-Contribuciones Varias-Residuos-Comercio).</li>
+                    <li>Automatización en la gestión de mails de Rentas Yerba Buena.</li>
+                    <li>Actualización constante de la base de datos de grandes contribuyentes en cuanto al seguimiento de su situación tributaria.</li>
+                    <li>Capacitación a pasantes del Departamento Fiscalización y Recaudación.</li>
+                    <li>Elaboración de manuales y guías para el Departamento Recaudación.</li>
+                    <li>Confección de intimaciones a contribuyentes morosos.</li>
+                    <li>Liquidación y procesamiento de transferencias bancarias ante el cobro de impuestos.</li>
+                </ul>
+              </div>
+                    
+            </div>
+
+            <div data-date="Agosto 2019 – Enero 2021">
+                <h3>Pasante administrativo</h3>
+                <h4>Departamento Fiscalización - Dirección Rentas Yerba Buena</h4>
+                <div>
+                    <ul>
+                        <li>Control de documentación (DDJJ IIBB, AFIP, Habilitaciones, Resoluciones) para la resolución de expedientes.</li>
+                        <li>Atención al público presencial y vía mail en resolución de consultas.</li>
+                        <li>Aplicación de controles en la detección de contribuyentes que incumplen la normativa tributaria municipal.</li>
+                        <li>Confección de los distintos tipos de intimaciones y su respectivo seguimiento.</li>
+                        <li>Armado de Cargos Tributarios para derivar a Asuntos Jurídicos.</li>
+                        <li>Elaboración de Manuales de Procedimientos y Funciones para el Departamento.</li>
+                    </ul>
+                  </div>
+            </div>
+
+            <div data-date="Marzo 2019 – Actualidad">
+                <h3>Emprendedora</h3>
+                <h4>Tienda Online SHIN accesorios</h4>
+                <div>
+                  Emprendimiento de accesorios alternativos y personalizados
+                  <ul>
+                  <li>Compras materiales y productos revender</li>
+                  <li>Manejo de Redes Sociales (Instagram y Facebook)</li>
+                  <li>Producción accesorios handmade</li>
+                  <li>Ventas online y en ferias</li>
+                  </ul>
+                </div>
+                    
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Educacion</h2>
+        <div class="education-block">
+            <h3>UNIVERSITARIO COMPLETO – CARRERA LICENCIATURA EN ADMINISTRACIÓN.</h3>
+            <span class="education-date">Feb 2021 - Dic 2020</span>
+            <h4>Facultad de Ciencias Económicas. Universidad Nacional de Tucumán.</h4>
+            
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>PRIMARIO Y SECUNDARIO</h3>
+            <span class="education-date">Egreso 2014</span>
+            <h4>Instituto Privado San Javier. Modalidad Economía y Gestión de las Organizaciones.</h4>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Capacitacion</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/argentina programa 2.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>ARGENTINA PROGRAMA “SÉ PROGRAMAR”.</h3>
+                        <p>
+                            Ministerio de Desarrollo Productivo Argentina – cessi ArgenTIna (Cámara de la Industria Argentina del Software de Argentina).
+                        </p>
+                        <a href="images/argentina_programa_octubre_diciembre_2021.pdf">Ver Certificado</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/expresar.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>TALLER DE ORATORIA, ESCENIFICACIÓN Y LENGUAJE CORPORAL</h3>
+                        <p>
+                            Expresar Capacitaciones – Dictado FUPIACE (Fundación para la Promoción Innovadora del Arte, la Cultura y la Educación.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/expresar.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>CURSO ORATORIA Y ESCRITURA CREATIVA</h3>
+                        <p>
+                            Expresar Capacitaciones – Dictado en la Facultad de Artes, Universidad Nacional de Tucumán.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Habilidades</h2>
+        <ul>
+            <li>Ingles Intermedio</li>
+            <li>Paquete Microsoft Office (Excel, Power Point, Word, Access, Publisher, Visio)</li>
+            <li>Adobe Photoshop CS6</li>
+            <li>SiApre</li>
+            <li>Git y Github</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Contacta conmigo</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Agrega tu email" required>
+                <textarea name="message" placeholder="Detalla tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> Ariadna Lobo F.S.
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/AriadnaLoboFS" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/ariadna-lobo-figueroa-suarez-aa2834181/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
